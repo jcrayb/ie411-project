@@ -9,8 +9,6 @@ import matplotlib.image as mpimg
 
 
 im = Image.open('tower.png').convert('L') #convert to grayscale
-
-im.save('new_img.png')
 tic = time.time()
 
 s = 0 
@@ -31,7 +29,6 @@ def get_weight(n1,n2): #weight of edge connecting n1 and n2
         return diff
 
 for z in range(iterations):
-    im = Image.open('new_img.png').convert('L')
     h = im.height
     w = im.width
     t = h*w+1
@@ -94,7 +91,11 @@ for z in range(iterations):
             flowing += [coord]
             new_img += [np.delete(img[coord[0]], coord[1]-1)]
 
+    im = Image.fromarray(np.array(new_img))
     print(z+1)
+
 toc = time.time()
+im.save('new_img.png')
+im.show()
 print ('elapsed ', toc - tic)
  

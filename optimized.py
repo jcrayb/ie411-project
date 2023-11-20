@@ -87,4 +87,5 @@ for z in range(iterations):
 toc = time.time()
 print ('elapsed ', toc - tic)
 im.save('optimized.png')
+im.show()
  
