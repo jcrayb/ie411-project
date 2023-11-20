@@ -16,7 +16,7 @@ s = 0
 real_source = 50
 #grayscale values; list of size h*w , where each values is integer in range [0,255]
 
-iterations = 2
+iterations = 25
 
 
 #%%
