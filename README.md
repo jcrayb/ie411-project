@@ -9,10 +9,12 @@ There are multiple variations of the problem:
 
 The repository also contains the "illustration" folder. This contains any extra scripts which were used to create explanatory images for the paper.
 
-Here is the final image after 25 iterations: \
-<img 
-src="https://files.jcrayb.com/files/ie411/project/new_img.png" 
-alt="Final Image"
-style="display: block;
+Here is the final image after 25 iterations:
+<div style="display: block;
     margin:auto;
     width:min(500px, 100%);">
+    <img src="https://files.jcrayb.com/files/ie411/project/new_img.png" 
+alt="Final Image"
+style="width:100%"
+>
+</div>
