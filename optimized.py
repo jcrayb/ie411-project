@@ -85,7 +85,7 @@ for z in range(iterations):
     print(f"Iteration {z+1}")
 
 toc = time.time()
-print ('elapsed ', toc - tic)
+print (toc - tic)
 im.save('optimized.png')
 im.show()
  

@@ -97,5 +97,5 @@ for z in range(iterations):
 toc = time.time()
 im.save('new_img.png')
 im.show()
-print ('elapsed ', toc - tic)
+print (toc - tic)
  
