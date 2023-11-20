@@ -9,6 +9,8 @@ There are multiple variations of the problem:
 
 The repository also contains the "illustration" folder. This contains any extra scripts which were used to create explanatory images for the paper.
 
+The final images can be found in the "final_images" folder. It contains both the output images from the full problem ("new_img.png") and the optimized problem ("optimized.png")
+
 Here is the final image after 25 iterations:
 <div style="display: block;
     margin:auto;
