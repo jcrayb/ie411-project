@@ -5,7 +5,7 @@ import numpy as np
 import networkx as nx
 import time
 
-im = Image.open('tower.png').convert('L') #convert to grayscale
+im = Image.open('tower.png').convert('L')
 tic = time.time()
 
 s = 0 
@@ -16,7 +16,7 @@ iterations = 25
 def idx(i,j):
     return w*(i-1) + j
 
-def get_weight(n1,n2): #weight of edge connecting n1 and n2 
+def get_weight(n1,n2):
     if n1== s or n2 == t:
         return 0
     else:
@@ -86,5 +86,5 @@ for z in range(iterations):
 
 toc = time.time()
 print ('elapsed ', toc - tic)
-im.save('saved.png')
+im.save('optimized.png')
  
