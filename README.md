@@ -21,6 +21,10 @@ We compared the performance of the full and optimized problems on two different 
 |Full problem|24.835 s|15.446 s|
 |Optimized problem|10.948 s|6.447 s|
 
+We can see that in both cases, there is around a 60% reduction in computing time, reflecting the halving in number of nodes.
+
+## Final Result:
+
 Here is the final image after 25 iterations:
 <div style="display: block;
     margin:auto;
