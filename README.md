@@ -18,8 +18,8 @@ We compared the performance of the full and optimized problems on two different 
 
 ||Laptop|Desktop|
 |---|---|---|
-|Full problem|24.835 s|XX.xx s|
-|Optimized problem|10.948 s|XX.xx s|
+|Full problem|24.835 s|15.446 s|
+|Optimized problem|10.948 s|6.447 s|
 
 Here is the final image after 25 iterations:
 <div style="display: block;
